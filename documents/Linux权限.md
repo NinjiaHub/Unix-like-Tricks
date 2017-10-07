@@ -172,5 +172,8 @@ $ chattr +a filename/dirname
 **注意：由于使用vim编辑器编辑文件时，系统不容易判断是向其中追加了内容还是修改删除了内容，所以具有a权限的文件不允许使用vim编辑器编辑该文件。只允许通过重定向的方式向文件中追加内容。**
 
 **查看文件或者目录是否具有不可改变位：**
-> lsattr -d dirname  
-> lsattr filename
+
+```shell
+$ lsattr -d dirname  
+$ lsattr filename
+```
