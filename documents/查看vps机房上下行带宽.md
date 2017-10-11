@@ -49,6 +49,10 @@ $ ./speedtest-cli --list
 	
 该命令会按照距离列出 所有的speedtest.net服务器。
 
+## 其他
+
+[speedtest官网](http://beta.speedtest.net/)
+
 ## 声明
 
 部分内容来自网络，如有版权问题请联系作者。
