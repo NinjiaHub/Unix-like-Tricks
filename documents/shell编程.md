@@ -1,6 +1,6 @@
-## Linux Shell编程
+# Linux Shell编程
 
-### 在shell脚本中声明局部变量
+## 在shell脚本中声明局部变量
 
 ```shell
 #!/bin/bash
@@ -10,7 +10,7 @@ function func_name {
 }
 ```
 
-### 在shell中，变量的默认类型都是字符串类型
+## 在shell中，变量的默认类型都是字符串类型
 
 声明变量：variable=value，“=”左右不能有空格  
 使用变量：```$variable```
@@ -22,23 +22,23 @@ function func_name {
 -bash: name: unbound variable
 ```
 
-### 变量的分类
+## 变量的分类
 
 * 用户自定义的变量
 * 环境变量：主要保存与系统操作环境相关的变量
 * 位置参数变量：主要用于向脚本中传递参数{$*, $@, $n($0:命令本身, ${1-n}), $#(代表参数个数)}
 * 预定义变量：系统预先定义好的变量，变量名和作用固定，不能更改
 
-### 环境变量
+## 环境变量
 
 环境变量是全局变量，可以在所有shell及其子shell中生效；用户自定义的变量是局部变量，只能在当前shell中使用，默认不能在子shell中使用，不过可以使用```export variable```命令将变量变为全局变量，使其可以在子shell中使用。**注意：在子shell中声明的全局变量不能在父shell中使用，同时，可以在子shell中使用unset命令删除父shell中声明的变量，但是只能删除当前shell中的同名变量，当退出当前shell回到父shell时，仍可以访问在zishell中删除的变量。**
 
-### set vs env
+## set vs env
 
 set命令用来查看所有的变量  
 env命令用来查看所有的环境变量
 
-### PS1 VS PS2 VS PS4
+## PS1 VS PS2 VS PS4
 
 [更详细的阐述：The Geek Stuff](http://www.thegeekstuff.com/2008/09/bash-shell-take-control-of-ps1-ps2-ps3-ps4-and-prompt_command/)
 
@@ -146,21 +146,21 @@ PS4 demo script
 
 其中，\$LINENO代表当前执行脚本的行号。
 
-### declare命令声明变量类型
+## declare命令声明变量类型
 
 declare [+/-] [options] variable  
 +：取消variable的类型  
 -：增加variable的类型  
 ```declare -x variable```命令会将变量声明为环境变量，```export```命令其实是调用的```declare -x```命令。
 
-### 数值运算
+## 数值运算
 
 * $(( $a + $b))
 * $[ $a + $b ]
 
 **注：当在脚本中使用```$(())```对变量进行运算时，变量名字前的```$```符号可以省略。**
 
-### trap
+## trap
 
 该命令可用于在shell脚本中捕获信号，从而针对指定的信号处理指定的任务。例如在脚本运行过程中用户使用了```Ctrl+c```快捷键停止脚本运行，如果该脚本运行过程中存在临时文件，应该捕获该信号删除临时文件然后终止脚本运行。
 
