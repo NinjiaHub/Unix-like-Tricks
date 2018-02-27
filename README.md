@@ -7,7 +7,9 @@
 * [Crontab服务.md](./documents/Crontab服务.md)
 * [Linux常用命令.md](./documents/Linux常用命令.md)
 * [Linux权限.md](./documents/Linux权限.md)
-* [shell编程.md](./documents/shell编程.md)
+* shell 编程
+	* [shell编程.md](./documents/shell编程.md)
+	* [shell编程--读取用户输入.md](./documents/shell编程--读取用户输入.md)
 * [查看vps机房上下行带宽.md](./documents/查看vps机房上下行带宽.md)
 * [磁盘管理.md](./documents/磁盘管理.md)
 
