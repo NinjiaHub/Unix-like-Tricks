@@ -49,6 +49,7 @@ env命令用来查看所有的环境变量
 [root@18:43:56 vm shellscripts]# ls \
 >
 ```
+
 当命令在一行中放不下时，我们可以通过使用```\```来换行输入。
 
 * PS3:用在select中，用以自定义select选项中的提示信息
@@ -179,3 +180,8 @@ trap clean_up SIGHUP SIGINT SIGTERM
 ```
 
 当系统产生信号并且发送到bash时，trap命令会捕获该信号并且可以执行指定的命令。但是需要注意的是trap命令不能捕获```SIGKILL```信号，因为当kernel收到该信号时会直接杀死指定的进程，shell不会收到该信号，从而trap命令也不能捕获该信号。
+
+## 作者信息 🐹
+
+* [GitHub](https://github.com/Tao-Quixote)
+* Email: <web.taox@gmail.com>
