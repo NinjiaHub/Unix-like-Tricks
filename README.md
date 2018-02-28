@@ -10,6 +10,7 @@
 * shell 编程
 	* [shell编程.md](./documents/shell编程.md)
 	* [shell编程--读取用户输入.md](./documents/shell编程--读取用户输入.md)
+	* [shell编程--条件判断与流程控制.md](./documents/shell编程--条件判断与流程控制.md)
 * [查看vps机房上下行带宽.md](./documents/查看vps机房上下行带宽.md)
 * [磁盘管理.md](./documents/磁盘管理.md)
 
