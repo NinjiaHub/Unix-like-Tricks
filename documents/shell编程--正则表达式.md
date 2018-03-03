@@ -30,3 +30,8 @@ grep "sa\{3,5\}" test.txt
 [[:upper:]]				大写字母
 [[:xdigit:]]			十六进制中容许出现的数字(例如 0-9a-fA-f)
 ```
+
+## 作者信息 🐼
+
+* [GitHub](https://github.com/Tao-Quixote)
+* Email: <web.taox@gmail.com>
