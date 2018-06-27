@@ -2,6 +2,7 @@
 
 ## 文章列表 📲
 
+* [autojump--命令行目录跳转](./documents/autojump--命令行目录跳转.md)
 * [Centos7修改ssh的默认登陆端口](./documents/Centos7修改ssh的默认登陆端口.md)
 * [centos包管理工具yum资源地址](./documents/centos包管理工具yum资源地址.md)
 * [Crontab服务](./documents/Crontab服务.md)
